@@ -21,7 +21,7 @@ public class counter {
 		    }
 		if (temp > 0 && temp < 0.01) time[3]++;
 		for (int i = 0; i < 4; i++) {
-			if (time[i] == 0) {} else {
+			if (time[i] != 0) {
 			System.out.println(coin[i] + " " + time[i]);
 			}
 		}
